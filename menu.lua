@@ -35,3 +35,8 @@ local Button = Tab:CreateButton({
          loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
    end,
 })
+local Divider = Tab:CreateDivider()
+local Section = Tab:CreateSection("Sigma Hub is a script hub with multiple scripts, and game supports.")
+local Section = Tab:CreateSection("This is a script that is going for $5 USD or 2000 Robux")
+local Section = Tab:CreateSection("Add me on discord to buy the source code and own its rights")
+local Section = Tab:CreateSection("@qvxms")
