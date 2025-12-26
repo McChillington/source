@@ -73,7 +73,7 @@ if game.GameId == 189707 then
    local ndsTab = Window:CreateTab("Natural Disaster Survival")
    local autofarmnds = ndsTab:CreateToggle({
       Name = "Autofarm",
-      CurrentValue = false
+      CurrentValue = false,
       Flag = "autofarmnds1"
       Callback = function(Value)
          while CurrentValue == true do
