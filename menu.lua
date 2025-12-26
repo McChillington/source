@@ -74,7 +74,7 @@ if game.GameId == 189707 then
    local autofarmnds = ndsTab:CreateToggle({
       Name = "Autofarm",
       CurrentValue = false,
-      Flag = "autofarmnds1",
+      Flag = "autofarmnds1"
       Callback = function(Value)
          while CurrentValue == true do
             autofarmtween()
