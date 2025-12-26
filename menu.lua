@@ -21,3 +21,10 @@ local Window = Rayfield:CreateWindow({
    },
    KeySystem = false
 })
+
+-- /////////
+-- ;;;;;;;;;
+-- HOME TAB
+
+local Tab = Window:CreateTab("Home")
+local Section = Tab:CreateSection("WELCOME TO SIGMA HUB")
