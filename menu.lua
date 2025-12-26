@@ -28,3 +28,10 @@ local Window = Rayfield:CreateWindow({
 
 local Tab = Window:CreateTab("Home")
 local Section = Tab:CreateSection("WELCOME TO SIGMA HUB")
+local Divider = Tab:CreateDivider()
+local Button = Tab:CreateButton({
+   Name = "Execute Infinite Yield",
+   Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+   end,
+})
